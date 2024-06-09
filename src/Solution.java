@@ -9,8 +9,8 @@ import java.util.GregorianCalendar;
 public class Solution {
 
     public static void main(String[] args) {
-        ZoneId timezone = ZoneId.of("Asia/Dushanbe");
-        LocalDate date = LocalDate.now(timezone);
+        ZoneId time = ZoneId.of("Asia/Dushanbe");
+        LocalDate date = LocalDate.now(time);
         System.out.println("now day is " + date);
     }
 }
